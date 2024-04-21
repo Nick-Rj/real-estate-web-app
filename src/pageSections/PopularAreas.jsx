@@ -74,11 +74,9 @@ const PopularAreas = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="400"
-            className="flex justify-center lg:items-center gap-8 w-full"
+            className="flex justify-center lg:items-center gap-8 w-full text-black dark:text-white"
           >
-            <h1 className="text-black text-7xl font-semibold dark:text-white">
-              5K
-            </h1>
+            <h1 className="text-7xl font-semibold">5K</h1>
             <h1>
               ACTIVE <br /> LISTINGS
             </h1>
@@ -86,11 +84,9 @@ const PopularAreas = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="400"
-            className="flex justify-center lg:items-center gap-8 w-full"
+            className="flex justify-center lg:items-center gap-8 w-full text-black dark:text-white"
           >
-            <h1 className="text-black text-7xl font-semibold dark:text-white">
-              9K
-            </h1>
+            <h1 className="text-7xl font-semibold">9K</h1>
             <h1>
               SOLID <br /> LISTINGS
             </h1>
@@ -98,11 +94,9 @@ const PopularAreas = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="400"
-            className="flex justify-center lg:items-center gap-8 w-full"
+            className="flex justify-center lg:items-center gap-8 w-full text-black dark:text-white"
           >
-            <h1 className="text-black text-7xl font-semibold dark:text-white">
-              6K
-            </h1>
+            <h1 className="text-7xl font-semibold">6K</h1>
             <h1>
               CLIENTS <br /> LISTINGS
             </h1>

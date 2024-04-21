@@ -20,7 +20,7 @@ export const About = () => {
     <section
       id="about"
       className={`${
-        darkMode ? "dark bg-gray-800" : "light bg-transparent"
+        darkMode ? "dark bg-gray-900" : "light bg-transparent"
       } w-full m-auto lg:px-40 px-10 lg:py-6 py-10  grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10`}
     >
       <div>

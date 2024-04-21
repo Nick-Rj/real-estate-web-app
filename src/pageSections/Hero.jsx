@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <>
       {/* Conditional based theme rendering */}
-      <div className={`${darkMode ? "dark bg-gray-800" : " light bg-transparent"}`}>
+      <div className={`${darkMode ? "dark bg-gray-900" : " light bg-transparent"}`}>
         {/* Using tailwind css classes with dynamic values */}
         {/* Media Breakpoints=> lg: means min-width: 1024px */}
         <section
