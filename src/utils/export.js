@@ -21,6 +21,7 @@ import { GoLaw } from "react-icons/go";
 
 export const property = [
   {
+    id: 1,
     images: prop1,
     address: "6Downtown, Las Vegas",
     name: "Villa with Amazing View",
@@ -33,6 +34,7 @@ export const property = [
     owner: "Alice adams",
   },
   {
+    id: 2,
     images: prop2,
     address: "Meadows Village, Las Vegas",
     name: "Townhouse for Sale",
@@ -45,6 +47,7 @@ export const property = [
     owner: "Drew Alice",
   },
   {
+    id: 3,
     images: prop3,
     address: "49 DC townhall alex",
     name: "Duplex sea facing for rent",
@@ -57,6 +60,7 @@ export const property = [
     owner: "Fursi Bam",
   },
   {
+    id: 4,
     images: prop4,
     address: "Underground street 20 texax",
     name: "Villa with Side View",
@@ -69,6 +73,7 @@ export const property = [
     owner: "Neon Alice",
   },
   {
+    id: 5,
     images: prop5,
     address: "Rubari London Hills",
     name: "Awesome villa for rent",
@@ -81,6 +86,7 @@ export const property = [
     owner: "Firari Alice",
   },
   {
+    id: 6,
     images: prop6,
     address: "Northean fersh alice",
     name: "Street Farm for sale",
@@ -96,31 +102,37 @@ export const property = [
 
 export const service = [
   {
+    id: 1,
     icon: MdNoteAlt,
     title: "Sell your home",
     desc: "We sell your home at the best market price",
   },
   {
+    id: 2,
     icon: FaHome,
     title: "Home loans",
     desc: "We offer you free consultancy to get a loan",
   },
   {
+    id: 3,
     icon: GoLaw,
     title: "Legal services",
     desc: "Expert legal help for all related property items",
   },
   {
+    id: 4,
     icon: FaSearch,
     title: "Home inspection",
     desc: "We make sure you get what you were promised",
   },
   {
+    id: 5,
     icon: FaNotesMedical,
     title: "Evaluation",
     desc: "We offer you free evaluation to get a mortgage loan",
   },
   {
+    id: 6,
     icon: FaCameraRetro,
     title: "Photoshoot",
     desc: "We prepare your home visual presentation",
@@ -129,44 +141,56 @@ export const service = [
 
 export const client = [
   {
+    id: 1,
     image: client1,
     name: "Dana Gilmore",
     text: "Excellent team!",
+    rating: 5,
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
+    id: 2,
     image: client2,
     name: "Ana Anderson",
     text: "Very good work",
+    rating: 4,
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
+    id: 3,
     image: client3,
     name: "Albert adame",
     text: "Very well",
+    rating: 3,
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
+    id: 4,
     image: client4,
     name: "Dana Gilmore",
     text: "Excellent team!",
+    rating: 5,
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
+    id: 5,
     image: client5,
     name: "Alex gilmore",
     text: "Excellent team!",
+    rating: 4,
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
+    id: 6,
     image: client6,
     name: "Sivay Ashbi",
     text: "Excellent team!",
+    rating: 5,
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
