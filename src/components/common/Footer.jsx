@@ -107,7 +107,7 @@ const Footer = () => {
       {/* slide-to-top button */}
       <div
         id="icon-box"
-        className="bg-red-600 p-4 rounded-full hover:bg-black cursor-pointer fixed lg:bottom-12 bottom-6 right-6 transition-colors duration-200"
+        className="bg-red-600 p-4 rounded-full hover:bg-black cursor-pointer fixed lg:bottom-12 bottom-6 lg:right-6 right-[80px] transition-colors duration-200"
       >
         <Link to="hero" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="size-6 text-white" />
@@ -118,7 +118,7 @@ const Footer = () => {
       <div>
         <button
           onClick={toggleDarkMode}
-          className="flex items-center p-4 rounded-full bg-orange-500 fixed lg:top-[110px] right-6 top-[120px]"
+          className="flex items-center p-4 rounded-full bg-orange-500 fixed lg:top-[110px] lg:right-6 right-[80px] top-[120px]"
         >
           {darkMode ? (
             <FaMoon size={25} className="text-black" />
